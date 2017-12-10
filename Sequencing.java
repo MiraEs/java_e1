@@ -6,6 +6,7 @@ public class Sequencing {
 		double price = 0, salesTax, total;
 
 		salesTax = price * 0.0825;
+		// VARIABLES CANNOT HOLD FORUMLAS
 		total = price + salesTax;
 
 		System.out.print( "How much is the purchase price? " );
